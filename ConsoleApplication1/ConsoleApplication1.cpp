@@ -44,5 +44,6 @@ public:
 			cout << "Queue underflow\n";
 			return;
 		}
+		cout << "\nThe elelment deleted from the queue is:" << queue_array[FRONT] << "\n";
 	}
 };
