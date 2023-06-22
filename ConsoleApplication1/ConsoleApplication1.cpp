@@ -10,4 +10,11 @@ public:
 		FRONT = -1;
 		REAR = -1;
 	}
+
+	void insret() {
+		int num;
+		cout << "Enter a number: ";
+		cin >> num;
+		cout << endl;
+	}
 };
